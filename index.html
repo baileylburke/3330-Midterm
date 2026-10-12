@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Midterm</title>
+
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+    <script defer src="js/planets.js"></script>
+</head>
+
+<body>
+
+    <div class="site-container">
+        <header class="site-header">
+            <div class="site-title"><p>Planets</p></div>
+            <nav class="site-navigation">
+                <ul>
+                <li><a href="https://science.nasa.gov/solar-system/planets/" class="nav-link active">Explore</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+   <main class="wrapper">
+        <div class="header">
+            <p>Click on the cards to learn more </p>
+        </div>
+
+        <div class="card" id="0">
+          <div class="card-body">
+            <img src="./images/sun.png">
+
+            <p class="card-title">Sun</p>
+            </div>
+        </div>
+        <div class="card" id="1">
+          <div class="card-body">
+            <img src="./images/moon.png">
+
+            <p class="card-title">moon</p>
+            </div>
+        </div>
+        <div class="card" id="2">
+          <div class="card-body">
+            <img src="./images/mercury.png">
+
+            <p class="card-title">mercury</p>
+            </div>
+        </div>
+        <div class="card" id="3">
+          <div class="card-body">
+            <img src="./images/venus.png">
+
+            <p class="card-title">venus</p>
+            </div>
+        </div>
+        <div class="card" id="4">
+          <div class="card-body">
+            <img src="./images/mars.png">
+
+            <p class="card-title">mars</p>
+            </div>
+        </div>
+        <div class="card" id="5">
+          <div class="card-body">
+            <img src="./images/saturn.png">
+
+            <p class="card-title">saturn</p>
+            </div>
+        </div>
+        <div class="card" id="6">
+          <div class="card-body">
+            <img src="./images/uranus.png">
+
+            <p class="card-title">uranus</p>
+            </div>
+        </div>
+        <div class="card" id="7">
+          <div class="card-body">
+            <img src="./images/neptune.png">
+
+            <p class="card-title">neptune</p>
+            </div>
+        </div>
+        <div class="card" id="8">
+          <div class="card-body">
+            <img src="./images/pluto.png">
+
+            <p class="card-title">pluto</p>
+            </div>
+        </div>
+
+        <div id="dialog" title="Properties">
+            <p>
+                <strong>Name: </strong>
+                <span class="name">name</span>
+            </p>
+            <p>
+                <strong>Constellation: </strong>
+                <span class="constellation">constellation</span>
+            </p>
+            <p>
+                <strong>Altitude: </strong>
+                <span class="altitude">altitude</span>
+            </p>
+            <p>
+                <strong>Azimuth: </strong>
+                <span class="azimuth">azimuth</span>
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <section id="footer-section-01" class="footer-section">
+                <h2>About this site</h2>
+                      <div class="form-group">
+                        <p>
+                            Explore the planets of our solar system and discover fascinating facts 
+                            about their properties, locations, and unique characteristics. 
+                            Click on a planet to learn more and continue your journey through space.
+                        </p>
+                    </div>
+            </section>        
+            <section id="footer-section-02" class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Subscribe for updates about planets, space exploration, and astronomy.</p>
+                <div id="customerDialog" title="Create New Customer">
+                    <div class="form-group">
+                        <label for="customerName">Name</label>
+                        <input type="text" id="customerName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerEmail">Email</label>
+                        <input type="email" id="customerEmail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerMessage">Message</label>
+                        <textarea type="textarea" id="customerMessage"></textarea>
+                    </div>
+
+                    <button class="footer-button">Submit</button>
+                </div>
+            </section>
+            <section id="footer-section-03" class="footer-section footer-email">
+                <h2>Explore With Us</h2>
+                <p>Have a question, suggestion, or just want to talk about space?</p>
+                <br>
+                <a href="mailto:bailey.burke01@utrgv.edu">bailey.burke01@utrgv.edu</a>
+                <p class="footer-note">Discover the planets, learn about our solar system, and keep exploring the universe.</p>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Planets in the Solar System by Vaqueros at 3330</p>
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
